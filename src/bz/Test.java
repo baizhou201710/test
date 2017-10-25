@@ -18,6 +18,7 @@ public class Test {
         goods.add(g3);
 
         order.setGoods(goods);
+        System.out.println("订单信息：");
         System.out.println(order);
 
     }
